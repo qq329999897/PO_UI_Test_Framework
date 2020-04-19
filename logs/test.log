@@ -20,3 +20,11 @@
 2020-04-19 16:03:38,728 - Logger - INFO - 用户名输入框输入：test01
 2020-04-19 16:03:38,905 - Logger - INFO - 密码输入框输入：newdream123
 2020-04-19 16:03:39,121 - Logger - INFO - 点击登录按钮
+2020-04-19 17:19:38,650 - Logger - INFO - 打开url地址 http://47.107.178.45/zentao/www/index.php?m=user&f=login 
+2020-04-19 17:28:51,933 - Logger - INFO - 打开url地址 http://47.107.178.45/zentao/www/index.php?m=user&f=login 
+2020-04-19 17:28:52,118 - Logger - INFO - [用户名输入框]元素识别成功
+2020-04-19 17:28:52,385 - Logger - INFO - [用户名输入框]元素输入内容：test01
+2020-04-19 17:28:52,413 - Logger - INFO - [密码输入框]元素识别成功
+2020-04-19 17:28:52,602 - Logger - INFO - [密码输入框]元素输入内容：newdream123
+2020-04-19 17:28:52,629 - Logger - INFO - [登录按钮]元素识别成功
+2020-04-19 17:28:52,848 - Logger - INFO - [登录按钮]元素进行点击操作
