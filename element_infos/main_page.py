@@ -1,4 +1,5 @@
 import os
+import time
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 from element_infos.login_page import LoginPage
@@ -24,6 +25,7 @@ class MainPage(object):
         self.myzone_menu.click()
 
     def goto_product(self):  # 进入产品菜单
+        time.sleep(1)
         self.product_menu.click()
 
     def get_username(self):
@@ -33,6 +35,8 @@ class MainPage(object):
 
 if __name__=="__main__":
    main_page =  MainPage()
+   main_page.goto_myzone()
+   main_page.goto_product()
    username = main_page.get_username()
    print( username )
 
