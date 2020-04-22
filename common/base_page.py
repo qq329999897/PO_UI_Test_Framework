@@ -42,6 +42,8 @@ class BasePage(object):
         locator_timeout = element_info['timeout']
         if locator_type_name == 'id':
             locator_type = By.ID
+        elif locator_type_name == 'name':
+            locator_type = By.NAME
         elif locator_type_name == 'class':
             locator_type = By.CLASS_NAME
         elif locator_type_name == 'xpath':

@@ -7,6 +7,7 @@ from common.log_utils import logger
 
 class MainPage(object):
     def __init__(self):
+        # elements = ElementdataUtils('main_page').get_element_info()
         login_page = LoginPage()
         login_page.input_username('test01')
         login_page.input_password('newdream123')
