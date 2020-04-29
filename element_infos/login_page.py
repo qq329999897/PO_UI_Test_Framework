@@ -25,8 +25,11 @@ class LoginPage(BasePage):
         self.username_inputbox = elements['username_inputbox']
         self.password_inputbox = elements['password_inputbox']
         self.login_button = elements['login_button']
+        self.bug_link = elements['bug_link']
 
-
+    def click_bug_link(self,bug_title='2020-04-14'):
+        self.bug_link = self.bug_link.locator_value%bug_title
+        self.click(self.bug_link)
 
     def input_username(self,username): #方法 == 》控件的操作
         self.input( self.username_inputbox , username )

@@ -65,8 +65,52 @@ class BasePage(object):
         element.send_keys(content)
         logger.info('[%s]元素输入内容：%s' %(element_info['element_name'],content))
 
+    # selenium执行js
+    def execute_script(self,js_str,element_info=None):
+        if element_info:
+            self.driver.execute_script(js_str)
+        else:
+            self.driver.execute_script(js_str,None)
+
+    def delete_element_attribute(self,element_info,attribute_name):
+        element = self.find_element(element_info)
+        self.execute_script('arguments[0].removeAttribute("%s");'%attribute_name,element)
 
 
+    def delete_element_attribute(self,element_info,attribute_name):
+        element = self.find_element(element_info)
+        self.driver.execute_script('arguments[0].removeAttribute("%s");'%attribute_name,element)
+
+    def update_element_attribute(self, element_info, attribute_name,attribute_value):
+        element = self.find_element(element_info)
+        self.driver.execute_script('arguments[0].setAttribute("%s","%s");' %(attribute_name,attribute_value), element)
+
+
+
+
+    #frame == > id/name   frame元素对象
+#    思路一
+    def switch_to_frame(self,element_info):
+        element = self.find_element(element_info)
+        self.driver.switch_to.frame(element)
+
+#   思路二
+    def switch_to_frame_id_or_name(self,id_or_name):
+        self.driver.switch_to.frame(id_or_name)
+
+    def switch_to_frame_by_element(self,element_info):
+        element = self.find_element(element_info)
+        self.driver.switch_to.frame(element)
+
+#   思路三
+    def switch_to_frame(self, **element_dict): #  switch_to_frame(id='frameid')  element=element_info
+        if 'id' in element_dict.keys():
+            self.driver.switch_to.frame( element_dict['id'] )
+        elif 'name' in element_dict.keys():
+            self.driver.switch_to.frame(element_dict['name'])
+        elif 'element' in element_dict.keys():
+            element = self.find_element(element_dict['element'])
+            self.driver.switch_to.frame(element)
 
 
 
