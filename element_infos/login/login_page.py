@@ -25,11 +25,11 @@ class LoginPage(BasePage):
         self.username_inputbox = elements['username_inputbox']
         self.password_inputbox = elements['password_inputbox']
         self.login_button = elements['login_button']
-        self.bug_link = elements['bug_link']
+        # self.bug_link = elements['bug_link']
 
-    def click_bug_link(self,bug_title='2020-04-14'):
-        self.bug_link = self.bug_link.locator_value%bug_title
-        self.click(self.bug_link)
+    # def click_bug_link(self,bug_title='2020-04-14'):
+    #     self.bug_link = self.bug_link.locator_value%bug_title
+    #     self.click(self.bug_link)
 
     def input_username(self,username): #方法 == 》控件的操作
         self.input( self.username_inputbox , username )
@@ -40,6 +40,9 @@ class LoginPage(BasePage):
     def click_login(self):
         self.click( self.login_button )
 
+    def get_login_fail_alert_content(self):
+        return self.switch_to_alert()
+
 if __name__=="__main__":
     driver = Browser().get_driver()
     login_page =  LoginPage(driver)
@@ -47,5 +50,6 @@ if __name__=="__main__":
     login_page.input_username('test01')
     login_page.input_password('newdream123')
     login_page.click_login()
+    login_page.screenshot_as_file()
 
 

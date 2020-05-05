@@ -2,13 +2,13 @@ import os
 import xlrd
 from common.config_utils import local_config
 
-current_path = os.path.dirname(__name__)
+current_path = os.path.dirname(__file__)
 excel_path = os.path.join( current_path,'../element_info_datas/element_infos.xlsx' )
 
 class ElementdataUtils:
     def __init__(self,module_name,element_path=excel_path):
         self.element_path = element_path
-        self.workbook = xlrd.open_workbook(excel_path)
+        self.workbook = xlrd.open_workbook(element_path)
         self.sheet = self.workbook.sheet_by_name(module_name)
         self.row_count = self.sheet.nrows
 

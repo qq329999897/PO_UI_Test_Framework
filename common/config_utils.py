@@ -29,6 +29,22 @@ class ConfigUtils(object):
         driver_name_value = float(self.cfg.get('default', 'time_out'))
         return driver_name_value
 
+    @property
+    def screenshot_path(self):
+        screenshot_path_value = self.cfg.get('default', 'screen_shot_path')
+        return screenshot_path_value
+
+    @property
+    def user_name(self):
+        user_name_value = self.cfg.get('default', 'user_name')
+        return user_name_value
+
+    @property
+    def password(self):
+        password_value = self.cfg.get('default', 'password')
+        return password_value
+
+
 local_config = ConfigUtils()
 
 if __name__=='__main__':
