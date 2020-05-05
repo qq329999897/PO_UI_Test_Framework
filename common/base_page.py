@@ -80,6 +80,10 @@ class BasePage(object):
         element.send_keys(content)
         logger.info('[%s]元素输入内容：%s' %(element_info['element_name'],content))
 
+    def get_text(self,element_info):
+        element = self.find_element(element_info)
+        return element.text
+
     # 鼠标键盘封装（建议代码思路：判断操作系统类型）
     def move_to_element_by_mouse(self,element_info):
         element = self.find_element(element_info)
@@ -140,8 +144,9 @@ class BasePage(object):
             self.driver.switch_to.frame(element)
 # 弹出窗封装
     def switch_to_alert(self, action='accept', time_out=local_config.time_out):
-        WebDriverWait(driver, time_out).until(EC.alert_is_present())
-        alter = self.driver.switch_to.alert()
+        WebDriverWait(self.driver, time_out).until(EC.alert_is_present())
+        # self.wait(time_out)
+        alter = self.driver.switch_to.alert
         alter_text = alter.text
         if action == 'accept':
             alter.accept()
@@ -158,14 +163,14 @@ class BasePage(object):
     def switch_to_window_by_title(self,title):
         window_handles = self.driver.window_handles
         for window_handle in window_handles:
-            if WebDriverWait(driver,local_config.time_out).until(EC.title_contains(title)):
+            if WebDriverWait(self.driver,local_config.time_out).until(EC.title_contains(title)):
                 self.driver.switch_to.window(window_handle)
                 break
 
     def switch_to_window_by_url(self,url):
         window_handles = self.driver.window_handles
         for window_handle in window_handles:
-            if WebDriverWait(driver,local_config.time_out).until(EC.url_contains(url)):
+            if WebDriverWait(self.driver,local_config.time_out).until(EC.url_contains(url)):
                 self.driver.switch_to.window(window_handle)
                 break
 

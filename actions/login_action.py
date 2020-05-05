@@ -19,6 +19,7 @@ class LoginAction:
         return self.login_success(local_config.user_name,local_config.password)
 
     def login_fail(self,username,password):
+
         self.login_action(username, password)
         return self.login_page.get_login_fail_alert_content()
 

@@ -1,42 +1,38 @@
-import time
+import os
+from selenium import webdriver
 from selenium.webdriver.common.by import By
-from element_infos.login.login_page import LoginPage
 from common.log_utils import logger
+from common.base_page import BasePage
+from common.element_data_utils import ElementdataUtils
+from common.browser import Browser
 
-class MainPage(object):
+
+class MainPage(BasePage):
     def __init__(self,driver):
-        # elements = ElementdataUtils('main_page').get_element_info()
-        login_page = LoginPage()
-        login_page.input_username('test01')
-        login_page.input_password('newdream123')
-        login_page.click_login()
-        self.driver = login_page.driver # 把login_page的对象转移到mainpage
-        self.companyname_showbox = self.driver.find_element(By.XPATH,'//h1[@id="companyname"]')
-        self.myzone_menu = self.driver.find_element(By.XPATH,'//li[@data-id="my"]')
-        self.product_menu = self.driver.find_element(By.XPATH,'//li[@data-id="product"]')
-        self.username_showspan = self.driver.find_element(By.XPATH,'//span[@class="user-name"]')
-
-    def get_companyname(self):  # 获取公司名称
-        value = self.companyname_showbox.get_attribute('title')
-        return value
+        super().__init__(driver)
+        elements = ElementdataUtils('main').get_element_info('main_page')
+        self.myzone_link = elements['myzone_link']
+        self.user_menu = elements['user_menu']
+        self.quit_button = elements['quit_button']
 
     def goto_myzone(self):  # 进入我的地盘菜单
-        self.myzone_menu.click()
-
-    def goto_product(self):  # 进入产品菜单
-        time.sleep(1)
-        self.product_menu.click()
+        self.click(self.myzone_link)
 
     def get_username(self):
-        value = self.username_showspan.text
-        logger.info('获取用户名成功，用户名是：' + str(value) )
+        value = self.get_text(self.user_menu)
         return value
 
-if __name__=="__main__":
-   main_page =  MainPage()
-   main_page.goto_myzone()
-   main_page.goto_product()
-   username = main_page.get_username()
-   print( username )
+    def click_username(self):
+        self.click( self.user_menu )
+
+    def click_quit_button(self):
+        self.click( self.quit_button )
+
+if __name__ == '__main__':
+    driver = Browser().get_driver()
+    # driver.get('http://47.107.178.45/zentao/www/index.php?m=user&f=login')
+    # main_page = LoginAction(driver).default_login()
+    # value = main_page.get_username()
+    # print(value)
 
 

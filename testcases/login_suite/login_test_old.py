@@ -3,13 +3,16 @@ from common.browser import Browser
 from common.base_page import BasePage
 from actions.login_action import LoginAction
 from common.config_utils import local_config
-from common.selenium_base_case import SeleniumBaseCase
 
-class LoginTest(SeleniumBaseCase):
-
+class LoginTest(unittest.TestCase):
     def setUp(self) -> None:
-        super().setUp()
-        print('hello')
+        self.base_page = BasePage(Browser().get_driver())
+        self.base_page.set_browser_max()
+        self.base_page.implicitly_wait()
+        self.base_page.open_url(local_config.url)
+
+    def tearDown(self) -> None:
+        self.base_page.close_tab()
 
     def test_login_success(self):
         login_action = LoginAction( self.base_page.driver )
