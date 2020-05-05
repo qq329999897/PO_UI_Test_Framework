@@ -2,6 +2,7 @@ import os
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
 from common.config_utils import local_config
+from common.log_utils import logger
 
 
 current_path = os.path.abspath(os.path.dirname(__file__))
@@ -29,6 +30,7 @@ class Browser(object):
         chrome_options.add_experimental_option("excludeSwitches", ['enable-automation'])#取消chrome受自动控制提示
         chrome_driver_path = os.path.join(self.__driver_path, 'chromedriver')
         driver = webdriver.Chrome(options=chrome_options,executable_path=chrome_driver_path)
+        logger.info('初始化并启动谷歌浏览器')
         return driver
 
     def __get_firefox_driver(self):

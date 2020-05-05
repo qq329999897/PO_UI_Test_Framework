@@ -1,6 +1,7 @@
 import os
 import xlrd
 from common.config_utils import local_config
+from common.excel_utils import ExcelUtils
 
 current_path = os.path.dirname(__file__)
 excel_path = os.path.join( current_path,'../element_info_datas/element_infos.xlsx' )

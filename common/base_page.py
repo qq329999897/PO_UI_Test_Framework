@@ -6,7 +6,6 @@ from selenium.webdriver.common.action_chains import ActionChains
 from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from common.config_utils import local_config
-
 from common.log_utils import logger
 
 class BasePage(object):
@@ -16,8 +15,11 @@ class BasePage(object):
 
     # 浏览器操作封装 -- > 二次封装
     def open_url(self,url):
-        self.driver.get( url )
-        logger.info('打开url地址 %s '% url )
+        try:
+            self.driver.get( url )
+            logger.info('打开url地址 %s '% url )
+        except Exception as e:
+            logger.error('不能打开指定的测试网址，原因是：%s'%e.__str__())
 
     def close_tab(self):
         self.driver.close()
@@ -52,28 +54,45 @@ class BasePage(object):
     #元素操作封装
     # element_info = {'element_name':'用户名输入框','locator_type':'xpath','locator_value':'//input[@name="account"]','timeout': 5 }
     def find_element(self,element_info):
-        locator_type_name = element_info['locator_type']
-        locator_value_info = element_info['locator_value']
-        locator_timeout = element_info['timeout']
-        if locator_type_name == 'id':
-            locator_type = By.ID
-        elif locator_type_name == 'name':
-            locator_type = By.NAME
-        elif locator_type_name == 'class':
-            locator_type = By.CLASS_NAME
-        elif locator_type_name == 'xpath':
-            locator_type = By.XPATH
-        element = WebDriverWait(self.driver , locator_timeout)\
-            .until(lambda x:x.find_element(locator_type,locator_value_info))
-        logger.info('[%s]元素识别成功'%element_info['element_name'])
-        # element = WebDriverWait(self.driver, locator_timeout)\
-        #     .until(EC.presence_of_element_located((locator_type, locator_value_info)))
+        """
+        根据提供的元素参数信息进行元素查找
+
+        :param element_info:元素信息，字典类型{....}
+        :return: element对象
+        """
+        try:
+            locator_type_name = element_info['locator_type']
+            locator_value_info = element_info['locator_value']
+            locator_timeout = element_info['timeout']
+            if locator_type_name == 'id':
+                locator_type = By.ID
+            elif locator_type_name == 'name':
+                locator_type = By.NAME
+            elif locator_type_name == 'class':
+                locator_type = By.CLASS_NAME
+            elif locator_type_name == 'xpath':
+                locator_type = By.XPATH
+            element = WebDriverWait(self.driver , locator_timeout)\
+                .until(lambda x:x.find_element(locator_type,locator_value_info))
+            logger.info('[%s]元素识别成功'%element_info['element_name'])
+            # element = WebDriverWait(self.driver, locator_timeout)\
+            #     .until(EC.presence_of_element_located((locator_type, locator_value_info)))
+        except Exception as e:
+            logger.error('[%s]元素不能识别，原因是%s'%(element_info['element_name'],e.__str__()))
+            self.screenshot_as_file()
+        # finally:
+        #     if element is None:
+        #         element = ''
         return element
 
     def click(self,element_info):
         element = self.find_element(element_info)
-        element.click()
-        logger.info('[%s]元素进行点击操作'%element_info['element_name'])
+        try:
+            element.click()
+            logger.info('[%s]元素进行点击操作'%element_info['element_name'])
+        except Exception as e:
+            logger.error('[%s]元素点击操作失败，原因是%s'%e.__str__())
+            self.screenshot_as_file()
 
     def input(self,element_info,content):
         element = self.find_element(element_info)

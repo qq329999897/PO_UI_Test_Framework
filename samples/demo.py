@@ -1,3 +1,4 @@
+import loguru
 class People:
     def __init__(self,dr):
         self.driver = dr
