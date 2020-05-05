@@ -21,7 +21,7 @@ class LoginPage(BasePage):
         #                           'locator_type': 'xpath',
         #                           'locator_value': '//button[@id="submit"]',
         #                           'timeout': 2}
-        elements = ElementdataUtils('login_page').get_element_info()
+        elements = ElementdataUtils('login').get_element_info('login_page')
         self.username_inputbox = elements['username_inputbox']
         self.password_inputbox = elements['password_inputbox']
         self.login_button = elements['login_button']

@@ -4,12 +4,13 @@ from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
+from common.config_utils import local_config
 
 from common.log_utils import logger
 
 class BasePage(object):
     def __init__(self,driver):
-        self.driver = driver
+        self.driver = webdriver.Chrome()#driver
 
     # 浏览器操作封装 -- > 二次封装
     def open_url(self,url):
@@ -23,6 +24,9 @@ class BasePage(object):
     def set_browser_min(self):
         self.driver.minimize_window()
         logger.info('设置浏览器最小化')
+
+    def implicitly_wait(self,seconds=local_config.time_out):
+        self.driver.implicitly_wait(seconds)
 
     def refresh(self):
         self.driver.refresh()
@@ -104,6 +108,7 @@ class BasePage(object):
 
 #   思路三
     def switch_to_frame(self, **element_dict): #  switch_to_frame(id='frameid')  element=element_info
+        self.wait(3)
         if 'id' in element_dict.keys():
             self.driver.switch_to.frame( element_dict['id'] )
         elif 'name' in element_dict.keys():
@@ -111,6 +116,9 @@ class BasePage(object):
         elif 'element' in element_dict.keys():
             element = self.find_element(element_dict['element'])
             self.driver.switch_to.frame(element)
+
+    def wait(self,seconds=local_config.time_out):
+        time.sleep(seconds)
 
 
 
