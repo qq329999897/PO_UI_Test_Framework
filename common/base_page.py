@@ -5,6 +5,7 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.common.action_chains import ActionChains
 from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
+from common import HTMLTestReportCN
 from common.config_utils import local_config
 from common.log_utils import logger
 
@@ -193,7 +194,12 @@ class BasePage(object):
                 self.driver.switch_to.window(window_handle)
                 break
 
-    def screenshot_as_file(self, *screenshot_path):
+    def screenshot_as_file(self):
+        report_path = os.path.join( os.path.abspath(os.path.dirname(__file__)) , '..', local_config.report_path)
+        report_dir = HTMLTestReportCN.ReportDirectory(report_path)
+        report_dir.get_screenshot( self.driver )
+
+    def screenshot_as_file_old(self, *screenshot_path):
         current_dir = os.path.dirname(__file__)
         if len(screenshot_path) == 0:
             screenshot_filepath = local_config.screenshot_path
