@@ -164,7 +164,6 @@ class BasePage(object):
 # 弹出窗封装
     def switch_to_alert(self, action='accept', time_out=local_config.time_out):
         WebDriverWait(self.driver, time_out).until(EC.alert_is_present())
-        # self.wait(time_out)
         alter = self.driver.switch_to.alert
         alter_text = alter.text
         if action == 'accept':
@@ -172,6 +171,7 @@ class BasePage(object):
         elif action == 'dismiss':
             alter.dismiss()
         return alter_text
+
 
     def get_window_handle(self):
         return self.driver.current_window_handle

@@ -1,0 +1,28 @@
+[2020-05-08 21:17:53,757] selenium_base_case.py->setUpClass line:10 [INFO] : 
+[2020-05-08 21:17:53,757] selenium_base_case.py->setUpClass line:11 [INFO] : ==============测试类开始执行=============
+[2020-05-08 21:17:53,758] selenium_base_case.py->setUp line:15 [INFO] : ---------测试方法开始执行-----------
+[2020-05-08 21:17:59,592] browser.py->__get_chrome_driver line:33 [INFO] : 初始化并启动谷歌浏览器
+[2020-05-08 21:17:59,801] base_page.py->set_browser_max line:34 [INFO] : 设置浏览器最大化
+[2020-05-08 21:18:12,816] base_page.py->open_url line:20 [INFO] : 打开url地址 http://47.107.178.45/zentao/www/index.php?m=user&f=login 
+[2020-05-08 21:18:13,027] base_page.py->find_element line:77 [INFO] : [用户名输入框]元素识别成功
+[2020-05-08 21:18:13,307] base_page.py->input line:100 [INFO] : [用户名输入框]元素输入内容：test01
+[2020-05-08 21:18:13,344] base_page.py->find_element line:77 [INFO] : [密码输入框]元素识别成功
+[2020-05-08 21:18:13,747] base_page.py->input line:100 [INFO] : [密码输入框]元素输入内容：newdream
+[2020-05-08 21:18:13,774] base_page.py->find_element line:77 [INFO] : [登录按钮]元素识别成功
+[2020-05-08 21:18:14,022] base_page.py->click line:92 [INFO] : [登录按钮]元素进行点击操作
+[2020-05-08 21:18:14,598] selenium_base_case.py->tearDown line:22 [INFO] : ---------测试方法执行完毕-----------
+[2020-05-08 21:18:14,922] base_page.py->close_tab line:26 [INFO] : 关闭当前的tab页签
+[2020-05-08 21:18:14,923] selenium_base_case.py->setUp line:15 [INFO] : ---------测试方法开始执行-----------
+[2020-05-08 21:18:19,140] browser.py->__get_chrome_driver line:33 [INFO] : 初始化并启动谷歌浏览器
+[2020-05-08 21:18:19,377] base_page.py->set_browser_max line:34 [INFO] : 设置浏览器最大化
+[2020-05-08 21:18:31,168] base_page.py->open_url line:20 [INFO] : 打开url地址 http://47.107.178.45/zentao/www/index.php?m=user&f=login 
+[2020-05-08 21:18:31,395] base_page.py->find_element line:77 [INFO] : [用户名输入框]元素识别成功
+[2020-05-08 21:18:31,600] base_page.py->input line:100 [INFO] : [用户名输入框]元素输入内容：test01
+[2020-05-08 21:18:31,643] base_page.py->find_element line:77 [INFO] : [密码输入框]元素识别成功
+[2020-05-08 21:18:32,108] base_page.py->input line:100 [INFO] : [密码输入框]元素输入内容：newdream123
+[2020-05-08 21:18:32,156] base_page.py->find_element line:77 [INFO] : [登录按钮]元素识别成功
+[2020-05-08 21:18:32,360] base_page.py->click line:92 [INFO] : [登录按钮]元素进行点击操作
+[2020-05-08 21:18:33,494] base_page.py->find_element line:77 [INFO] : [用户菜单]元素识别成功
+[2020-05-08 21:18:33,850] selenium_base_case.py->tearDown line:22 [INFO] : ---------测试方法执行完毕-----------
+[2020-05-08 21:18:34,174] base_page.py->close_tab line:26 [INFO] : 关闭当前的tab页签
+[2020-05-08 21:18:34,175] selenium_base_case.py->tearDownClass line:28 [INFO] : ==============测试类执行完毕=============
