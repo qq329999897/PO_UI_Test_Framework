@@ -233,10 +233,10 @@ table       { font-size: 100%; }
                 innerSize: '80%',
                 name: '比例',
                 data: [
-                    ['通过', 3],
+                    ['通过', 2],
                     {
                         name: '失败',
-                        y: 0,
+                        y: 1,
                         sliced: true,
                         selected: true
                     },
@@ -375,10 +375,10 @@ function html_escape(s) {
 <div style="width: 650px; float: left;">
     <h1 style="font-family: Microsoft YaHei">禅道自动化测试报告</h1>
     <p class='attribute'><strong>测试人员 : </strong> liusir</p>
-<p class='attribute'><strong>开始时间 : </strong> 2020-05-09 09:00:38</p>
-<p class='attribute'><strong>合计耗时 : </strong> 0:00:29.568577</p>
-<p class='attribute'><strong>测试结果 : </strong> 共 3，通过 3，通过率 = 100.00%</p>
-<p class='attribute'><strong>失败用例合集 : </strong> <ol style='float: left;'>无</ol></p>
+<p class='attribute'><strong>开始时间 : </strong> 2020-05-10 09:06:10</p>
+<p class='attribute'><strong>合计耗时 : </strong> 0:00:37.982330</p>
+<p class='attribute'><strong>测试结果 : </strong> 共 3，通过 2，失败 1，通过率 = 66.67%</p>
+<p class='attribute'><strong>失败用例合集 : </strong> <div class='panel-default' style='float: left;'><a class='showDetail' data-toggle='collapse' href='#failCaseOl' style='text-decoration: none;'>点击查看</a></div><ol id='failCaseOl' class='collapse' style='float: left;'><li>test_login_success (login_suite.login_test.LoginTest)</li></ol></p>
 <p class='attribute'><strong>错误用例合集 : </strong> <ol style='float: left;'>无</ol></p>
 
     <p class='description'>newdream—test</p>
@@ -390,9 +390,9 @@ function html_escape(s) {
 
 <div style="width: 500px; clear: both;">
 <p id='show_detail_line'>
-<a class="btn btn-primary" href='javascript:showCase(0)'>概要{ 100.00% }</a>
-<a class="btn btn-success" href='javascript:showCase(2)'>通过{ 3 }</a>
-<a class="btn btn-danger" href='javascript:showCase(1)'>失败{ 0 }</a>
+<a class="btn btn-primary" href='javascript:showCase(0)'>概要{ 66.67% }</a>
+<a class="btn btn-success" href='javascript:showCase(2)'>通过{ 2 }</a>
+<a class="btn btn-danger" href='javascript:showCase(1)'>失败{ 1 }</a>
 <a class="btn btn-warning" href='javascript:showCase(3)'>错误{ 0 }</a>
 <a class="btn btn-info" href='javascript:showCase(4)'>所有{ 3 }</a>
 </p>
@@ -419,14 +419,14 @@ function html_escape(s) {
     <td>详细</td>
 </tr>
 
-<tr class='passClass warning'>
+<tr class='failClass warning'>
     <td>LoginTest</td>
     <td> 登录测试类 </td>
     <td class="text-center">2</td>
-    <td class="text-center">2</td>
+    <td class="text-center">1</td>
+    <td class="text-center">1</td>
     <td class="text-center">0</td>
-    <td class="text-center">0</td>
-    <td class="text-center">19.65秒</td>
+    <td class="text-center">25.74秒</td>
     <td class="text-center"><a href="javascript:showClassDetail('c1',2)" class="detail" id='c1'>详细</a></td>
 </tr>
 
@@ -437,11 +437,34 @@ function html_escape(s) {
     <td class='passCase' style="vertical-align: middle"></td>
 </tr>
 
-<tr id='pt1_2' class='hiddenRow'>
-    <td class='passCase' style="vertical-align: middle"><div class='testcase'>test_login_success</div></td>
-    <td style="vertical-align: left">验证是否能成功进行登录</td>
-    <td colspan='5' align='center'><span class="label label-success success">通过</span></td>
-    <td class='passCase' style="vertical-align: middle"></td>
+<tr id='ft1_2' class='none'>
+    <td class='failCase' style="vertical-align: middle"><div class='testcase'>test_login_success</div></td>
+    <td style="vertical-align: middle">验证是否能成功进行登录</td>
+    <td colspan='5' align='center'>
+    <!--默认收起错误信息 -Findyou
+    <button id='btn_ft1_2' type="button"  class="btn btn-xs collapsed" data-toggle="collapse" data-target='#div_ft1_2'>失败</button>
+    <div id='div_ft1_2' class="collapse">  -->
+
+    <!-- 默认展开错误信息 -Findyou /  修复失败按钮的颜色 -- Gelomen -->
+    <button id='btn_ft1_2' type="button"  class="btn btn-xs" data-toggle="collapse" data-target='#div_ft1_2,#div_ft1_2_screenshot'>失败</button>
+    <div id='div_ft1_2' class="collapse in">
+    <pre style="text-align:left">
+    
+ft1_2: errorImg[1.png]errorImg, browser[chrome(81.0.4044.138)]browser
+Traceback (most recent call last):
+  File "/Users/liuqingjun/PycharmProjects/PO_UI_Test_Framework/testcases/login_suite/login_test.py", line 25, in test_login_success
+    self.assertEqual(actual_result,test_function_data['excepted_result'],'test_login_success用例执行失败')
+AssertionError: '测试人员1' != '测试人员'
+- 测试人员1
+?     -
++ 测试人员
+ : test_login_success用例执行失败
+
+
+    </pre>
+    </div>
+    </td>
+    <td class="text-center" style="vertical-align: middle"><div id='div_ft1_2_screenshot' class="collapse in">浏览器版本：<div style="color: brown;">chrome(81.0.4044.138)</div></br>截图：</br><a class="screenshot" href="javascript:void(0)" img="image/1.png">img_1.png</a></div></td>
 </tr>
 
 <tr class='passClass warning'>
@@ -451,7 +474,7 @@ function html_escape(s) {
     <td class="text-center">1</td>
     <td class="text-center">0</td>
     <td class="text-center">0</td>
-    <td class="text-center">9.92秒</td>
+    <td class="text-center">12.23秒</td>
     <td class="text-center"><a href="javascript:showClassDetail('c2',1)" class="detail" id='c2'>详细</a></td>
 </tr>
 
@@ -465,11 +488,11 @@ function html_escape(s) {
 <tr id='total_row' class="text-center active">
     <td colspan='2'>总计</td>
     <td>3</td>
-    <td>3</td>
+    <td>2</td>
+    <td>1</td>
     <td>0</td>
-    <td>0</td>
-    <td>29.57秒</td>
-    <td>通过率：100.00%</td>
+    <td>37.97秒</td>
+    <td>通过率：66.67%</td>
 </tr>
 </table>
 

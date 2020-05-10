@@ -1,8 +1,11 @@
-from selenium import webdriver
+import unittest
 
-driver = webdriver.Chrome(executable_path=None)
+class testa(unittest.TestCase):
 
-driver.get('')
+    @unittest.skipIf(True,'dd')
+    def test_add(self):
+        print('test_add')
+        self.assertEqual(1+1,2)
 
-driver.find_element('')
-driver
+if __name__ == '__main__':
+    unittest.main()

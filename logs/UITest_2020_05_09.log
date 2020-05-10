@@ -1,0 +1,489 @@
+[2020-05-09 08:22:55,231] selenium_base_case.py->setUpClass line:10 [INFO] : 
+[2020-05-09 08:22:55,231] selenium_base_case.py->setUpClass line:11 [INFO] : ==============测试类开始执行=============
+[2020-05-09 08:22:55,232] selenium_base_case.py->setUp line:15 [INFO] : ---------测试方法开始执行-----------
+[2020-05-09 08:22:57,293] browser.py->__get_chrome_driver line:33 [INFO] : 初始化并启动谷歌浏览器
+[2020-05-09 08:22:57,448] base_page.py->set_browser_max line:35 [INFO] : 设置浏览器最大化
+[2020-05-09 08:23:02,450] base_page.py->open_url line:21 [INFO] : 打开url地址 http://47.107.178.45/zentao/www/index.php?m=user&f=login 
+[2020-05-09 08:23:02,733] base_page.py->find_element line:78 [INFO] : [用户名输入框]元素识别成功
+[2020-05-09 08:23:03,013] base_page.py->input line:101 [INFO] : [用户名输入框]元素输入内容：test01
+[2020-05-09 08:23:03,046] base_page.py->find_element line:78 [INFO] : [密码输入框]元素识别成功
+[2020-05-09 08:23:03,310] base_page.py->input line:101 [INFO] : [密码输入框]元素输入内容：newdream
+[2020-05-09 08:23:03,335] base_page.py->find_element line:78 [INFO] : [登录按钮]元素识别成功
+[2020-05-09 08:23:03,440] base_page.py->click line:93 [INFO] : [登录按钮]元素进行点击操作
+[2020-05-09 08:23:04,180] base_page.py->close_tab line:27 [INFO] : 关闭当前的tab页签
+[2020-05-09 08:23:04,181] selenium_base_case.py->tearDown line:30 [INFO] : ---------测试方法执行完毕-----------
+[2020-05-09 08:23:04,181] selenium_base_case.py->setUp line:15 [INFO] : ---------测试方法开始执行-----------
+[2020-05-09 08:23:07,380] browser.py->__get_chrome_driver line:33 [INFO] : 初始化并启动谷歌浏览器
+[2020-05-09 08:23:07,574] base_page.py->set_browser_max line:35 [INFO] : 设置浏览器最大化
+[2020-05-09 08:23:11,895] base_page.py->open_url line:21 [INFO] : 打开url地址 http://47.107.178.45/zentao/www/index.php?m=user&f=login 
+[2020-05-09 08:23:11,993] base_page.py->find_element line:78 [INFO] : [用户名输入框]元素识别成功
+[2020-05-09 08:23:12,261] base_page.py->input line:101 [INFO] : [用户名输入框]元素输入内容：test01
+[2020-05-09 08:23:12,293] base_page.py->find_element line:78 [INFO] : [密码输入框]元素识别成功
+[2020-05-09 08:23:12,601] base_page.py->input line:101 [INFO] : [密码输入框]元素输入内容：newdream123
+[2020-05-09 08:23:12,627] base_page.py->find_element line:78 [INFO] : [登录按钮]元素识别成功
+[2020-05-09 08:23:12,741] base_page.py->click line:93 [INFO] : [登录按钮]元素进行点击操作
+[2020-05-09 08:23:13,828] base_page.py->find_element line:78 [INFO] : [用户菜单]元素识别成功
+[2020-05-09 08:23:14,103] base_page.py->close_tab line:27 [INFO] : 关闭当前的tab页签
+[2020-05-09 08:23:14,106] selenium_base_case.py->tearDown line:30 [INFO] : ---------测试方法执行完毕-----------
+[2020-05-09 08:23:14,107] selenium_base_case.py->tearDownClass line:34 [INFO] : ==============测试类执行完毕=============
+[2020-05-09 08:23:16,991] browser.py->__get_chrome_driver line:33 [INFO] : 初始化并启动谷歌浏览器
+[2020-05-09 08:23:17,190] base_page.py->set_browser_max line:35 [INFO] : 设置浏览器最大化
+[2020-05-09 08:23:21,794] base_page.py->open_url line:21 [INFO] : 打开url地址 http://47.107.178.45/zentao/www/index.php?m=user&f=login 
+[2020-05-09 08:23:21,954] base_page.py->find_element line:78 [INFO] : [用户名输入框]元素识别成功
+[2020-05-09 08:23:22,182] base_page.py->input line:101 [INFO] : [用户名输入框]元素输入内容：test01
+[2020-05-09 08:23:22,207] base_page.py->find_element line:78 [INFO] : [密码输入框]元素识别成功
+[2020-05-09 08:23:22,477] base_page.py->input line:101 [INFO] : [密码输入框]元素输入内容：newdream123
+[2020-05-09 08:23:22,495] base_page.py->find_element line:78 [INFO] : [登录按钮]元素识别成功
+[2020-05-09 08:23:22,587] base_page.py->click line:93 [INFO] : [登录按钮]元素进行点击操作
+[2020-05-09 08:23:23,644] base_page.py->find_element line:78 [INFO] : [用户菜单]元素识别成功
+[2020-05-09 08:23:23,736] base_page.py->click line:93 [INFO] : [用户菜单]元素进行点击操作
+[2020-05-09 08:23:23,917] base_page.py->find_element line:78 [INFO] : [退出按钮]元素识别成功
+[2020-05-09 08:23:24,420] base_page.py->click line:93 [INFO] : [退出按钮]元素进行点击操作
+[2020-05-09 08:23:24,463] base_page.py->get_title line:50 [INFO] : 获取网页标题，标题是用户登录 - 禅道
+[2020-05-09 08:23:24,680] base_page.py->close_tab line:27 [INFO] : 关闭当前的tab页签
+[2020-05-09 08:30:18,273] selenium_base_case.py->setUpClass line:10 [INFO] : 
+[2020-05-09 08:30:18,273] selenium_base_case.py->setUpClass line:11 [INFO] : ==============测试类开始执行=============
+[2020-05-09 08:30:18,273] selenium_base_case.py->setUp line:15 [INFO] : ---------测试方法开始执行-----------
+[2020-05-09 08:30:20,841] browser.py->__get_chrome_driver line:33 [INFO] : 初始化并启动谷歌浏览器
+[2020-05-09 08:30:21,024] base_page.py->set_browser_max line:35 [INFO] : 设置浏览器最大化
+[2020-05-09 08:30:25,254] base_page.py->open_url line:21 [INFO] : 打开url地址 http://47.107.178.45/zentao/www/index.php?m=user&f=login 
+[2020-05-09 08:30:30,907] base_page.py->find_element line:82 [ERROR] : [用户名输入框]元素不能识别，原因是Message: 
+
+[2020-05-09 08:30:32,517] base_page.py->close_tab line:27 [INFO] : 关闭当前的tab页签
+[2020-05-09 08:30:32,519] selenium_base_case.py->tearDown line:30 [INFO] : ---------测试方法执行完毕-----------
+[2020-05-09 08:30:32,536] selenium_base_case.py->setUp line:15 [INFO] : ---------测试方法开始执行-----------
+[2020-05-09 08:30:35,812] browser.py->__get_chrome_driver line:33 [INFO] : 初始化并启动谷歌浏览器
+[2020-05-09 08:30:36,005] base_page.py->set_browser_max line:35 [INFO] : 设置浏览器最大化
+[2020-05-09 08:30:41,030] base_page.py->open_url line:21 [INFO] : 打开url地址 http://47.107.178.45/zentao/www/index.php?m=user&f=login 
+[2020-05-09 08:30:46,638] base_page.py->find_element line:82 [ERROR] : [用户名输入框]元素不能识别，原因是Message: 
+
+[2020-05-09 08:30:48,292] base_page.py->close_tab line:27 [INFO] : 关闭当前的tab页签
+[2020-05-09 08:30:48,292] selenium_base_case.py->tearDown line:30 [INFO] : ---------测试方法执行完毕-----------
+[2020-05-09 08:30:48,296] selenium_base_case.py->tearDownClass line:34 [INFO] : ==============测试类执行完毕=============
+[2020-05-09 08:30:51,335] browser.py->__get_chrome_driver line:33 [INFO] : 初始化并启动谷歌浏览器
+[2020-05-09 08:30:51,539] base_page.py->set_browser_max line:35 [INFO] : 设置浏览器最大化
+[2020-05-09 08:30:56,053] base_page.py->open_url line:21 [INFO] : 打开url地址 http://47.107.178.45/zentao/www/index.php?m=user&f=login 
+[2020-05-09 08:31:01,668] base_page.py->find_element line:82 [ERROR] : [用户名输入框]元素不能识别，原因是Message: 
+
+[2020-05-09 08:31:02,616] base_page.py->close_tab line:27 [INFO] : 关闭当前的tab页签
+[2020-05-09 08:33:56,041] selenium_base_case.py->setUpClass line:10 [INFO] : 
+[2020-05-09 08:33:56,041] selenium_base_case.py->setUpClass line:11 [INFO] : ==============测试类开始执行=============
+[2020-05-09 08:33:56,042] selenium_base_case.py->setUp line:15 [INFO] : ---------测试方法开始执行-----------
+[2020-05-09 08:33:58,462] browser.py->__get_chrome_driver line:33 [INFO] : 初始化并启动谷歌浏览器
+[2020-05-09 08:33:58,744] base_page.py->set_browser_max line:35 [INFO] : 设置浏览器最大化
+[2020-05-09 08:34:03,175] base_page.py->open_url line:21 [INFO] : 打开url地址 http://47.107.178.45/zentao/www/index.php?m=user&f=login 
+[2020-05-09 08:34:03,308] base_page.py->find_element line:78 [INFO] : [用户名输入框]元素识别成功
+[2020-05-09 08:34:03,545] base_page.py->input line:101 [INFO] : [用户名输入框]元素输入内容：test01
+[2020-05-09 08:34:03,574] base_page.py->find_element line:78 [INFO] : [密码输入框]元素识别成功
+[2020-05-09 08:34:03,794] base_page.py->input line:101 [INFO] : [密码输入框]元素输入内容：newdream
+[2020-05-09 08:34:03,819] base_page.py->find_element line:78 [INFO] : [登录按钮]元素识别成功
+[2020-05-09 08:34:03,938] base_page.py->click line:93 [INFO] : [登录按钮]元素进行点击操作
+[2020-05-09 08:34:04,654] base_page.py->close_tab line:27 [INFO] : 关闭当前的tab页签
+[2020-05-09 08:34:04,654] selenium_base_case.py->tearDown line:30 [INFO] : ---------测试方法执行完毕-----------
+[2020-05-09 08:34:04,656] selenium_base_case.py->setUp line:15 [INFO] : ---------测试方法开始执行-----------
+[2020-05-09 08:34:07,839] browser.py->__get_chrome_driver line:33 [INFO] : 初始化并启动谷歌浏览器
+[2020-05-09 08:34:08,015] base_page.py->set_browser_max line:35 [INFO] : 设置浏览器最大化
+[2020-05-09 08:34:12,537] base_page.py->open_url line:21 [INFO] : 打开url地址 http://47.107.178.45/zentao/www/index.php?m=user&f=login 
+[2020-05-09 08:34:12,696] base_page.py->find_element line:78 [INFO] : [用户名输入框]元素识别成功
+[2020-05-09 08:34:12,913] base_page.py->input line:101 [INFO] : [用户名输入框]元素输入内容：test01
+[2020-05-09 08:34:12,937] base_page.py->find_element line:78 [INFO] : [密码输入框]元素识别成功
+[2020-05-09 08:34:13,195] base_page.py->input line:101 [INFO] : [密码输入框]元素输入内容：newdream123
+[2020-05-09 08:34:13,215] base_page.py->find_element line:78 [INFO] : [登录按钮]元素识别成功
+[2020-05-09 08:34:13,324] base_page.py->click line:93 [INFO] : [登录按钮]元素进行点击操作
+[2020-05-09 08:34:14,429] base_page.py->find_element line:78 [INFO] : [用户菜单]元素识别成功
+[2020-05-09 08:34:14,758] base_page.py->close_tab line:27 [INFO] : 关闭当前的tab页签
+[2020-05-09 08:34:14,758] selenium_base_case.py->tearDown line:30 [INFO] : ---------测试方法执行完毕-----------
+[2020-05-09 08:34:14,759] selenium_base_case.py->tearDownClass line:34 [INFO] : ==============测试类执行完毕=============
+[2020-05-09 08:34:17,547] browser.py->__get_chrome_driver line:33 [INFO] : 初始化并启动谷歌浏览器
+[2020-05-09 08:34:17,739] base_page.py->set_browser_max line:35 [INFO] : 设置浏览器最大化
+[2020-05-09 08:34:22,250] base_page.py->open_url line:21 [INFO] : 打开url地址 http://47.107.178.45/zentao/www/index.php?m=user&f=login 
+[2020-05-09 08:34:22,401] base_page.py->find_element line:78 [INFO] : [用户名输入框]元素识别成功
+[2020-05-09 08:34:22,677] base_page.py->input line:101 [INFO] : [用户名输入框]元素输入内容：test01
+[2020-05-09 08:34:22,700] base_page.py->find_element line:78 [INFO] : [密码输入框]元素识别成功
+[2020-05-09 08:34:23,000] base_page.py->input line:101 [INFO] : [密码输入框]元素输入内容：newdream123
+[2020-05-09 08:34:23,024] base_page.py->find_element line:78 [INFO] : [登录按钮]元素识别成功
+[2020-05-09 08:34:23,183] base_page.py->click line:93 [INFO] : [登录按钮]元素进行点击操作
+[2020-05-09 08:34:24,136] base_page.py->find_element line:78 [INFO] : [用户菜单]元素识别成功
+[2020-05-09 08:34:24,367] base_page.py->click line:93 [INFO] : [用户菜单]元素进行点击操作
+[2020-05-09 08:34:24,434] base_page.py->find_element line:78 [INFO] : [退出按钮]元素识别成功
+[2020-05-09 08:34:25,071] base_page.py->click line:93 [INFO] : [退出按钮]元素进行点击操作
+[2020-05-09 08:34:25,117] base_page.py->get_title line:50 [INFO] : 获取网页标题，标题是用户登录 - 禅道
+[2020-05-09 08:34:25,425] base_page.py->close_tab line:27 [INFO] : 关闭当前的tab页签
+[2020-05-09 08:36:13,064] selenium_base_case.py->setUpClass line:10 [INFO] : 
+[2020-05-09 08:36:13,064] selenium_base_case.py->setUpClass line:11 [INFO] : ==============测试类开始执行=============
+[2020-05-09 08:36:13,065] selenium_base_case.py->setUp line:15 [INFO] : ---------测试方法开始执行-----------
+[2020-05-09 08:36:15,484] browser.py->__get_chrome_driver line:33 [INFO] : 初始化并启动谷歌浏览器
+[2020-05-09 08:36:15,671] base_page.py->set_browser_max line:35 [INFO] : 设置浏览器最大化
+[2020-05-09 08:36:19,923] base_page.py->open_url line:21 [INFO] : 打开url地址 http://47.107.178.45/zentao/www/index.php?m=user&f=login 
+[2020-05-09 08:36:20,064] base_page.py->find_element line:78 [INFO] : [用户名输入框]元素识别成功
+[2020-05-09 08:36:20,335] base_page.py->input line:101 [INFO] : [用户名输入框]元素输入内容：test01
+[2020-05-09 08:36:20,364] base_page.py->find_element line:78 [INFO] : [密码输入框]元素识别成功
+[2020-05-09 08:36:20,553] base_page.py->input line:101 [INFO] : [密码输入框]元素输入内容：newdream
+[2020-05-09 08:36:20,575] base_page.py->find_element line:78 [INFO] : [登录按钮]元素识别成功
+[2020-05-09 08:36:20,721] base_page.py->click line:93 [INFO] : [登录按钮]元素进行点击操作
+[2020-05-09 08:36:21,474] base_page.py->close_tab line:27 [INFO] : 关闭当前的tab页签
+[2020-05-09 08:36:21,474] selenium_base_case.py->tearDown line:30 [INFO] : ---------测试方法执行完毕-----------
+[2020-05-09 08:36:21,475] selenium_base_case.py->setUp line:15 [INFO] : ---------测试方法开始执行-----------
+[2020-05-09 08:36:24,620] browser.py->__get_chrome_driver line:33 [INFO] : 初始化并启动谷歌浏览器
+[2020-05-09 08:36:24,823] base_page.py->set_browser_max line:35 [INFO] : 设置浏览器最大化
+[2020-05-09 08:36:29,345] base_page.py->open_url line:21 [INFO] : 打开url地址 http://47.107.178.45/zentao/www/index.php?m=user&f=login 
+[2020-05-09 08:36:29,473] base_page.py->find_element line:78 [INFO] : [用户名输入框]元素识别成功
+[2020-05-09 08:36:29,698] base_page.py->input line:101 [INFO] : [用户名输入框]元素输入内容：test01
+[2020-05-09 08:36:29,724] base_page.py->find_element line:78 [INFO] : [密码输入框]元素识别成功
+[2020-05-09 08:36:29,963] base_page.py->input line:101 [INFO] : [密码输入框]元素输入内容：newdream123
+[2020-05-09 08:36:29,990] base_page.py->find_element line:78 [INFO] : [登录按钮]元素识别成功
+[2020-05-09 08:36:30,093] base_page.py->click line:93 [INFO] : [登录按钮]元素进行点击操作
+[2020-05-09 08:36:31,421] base_page.py->find_element line:78 [INFO] : [用户菜单]元素识别成功
+[2020-05-09 08:36:32,243] base_page.py->close_tab line:27 [INFO] : 关闭当前的tab页签
+[2020-05-09 08:36:32,245] selenium_base_case.py->tearDown line:30 [INFO] : ---------测试方法执行完毕-----------
+[2020-05-09 08:36:32,249] selenium_base_case.py->tearDownClass line:34 [INFO] : ==============测试类执行完毕=============
+[2020-05-09 08:36:35,426] browser.py->__get_chrome_driver line:33 [INFO] : 初始化并启动谷歌浏览器
+[2020-05-09 08:36:35,623] base_page.py->set_browser_max line:35 [INFO] : 设置浏览器最大化
+[2020-05-09 08:36:40,194] base_page.py->open_url line:21 [INFO] : 打开url地址 http://47.107.178.45/zentao/www/index.php?m=user&f=login 
+[2020-05-09 08:36:40,239] base_page.py->find_element line:78 [INFO] : [用户名输入框]元素识别成功
+[2020-05-09 08:36:40,441] base_page.py->input line:101 [INFO] : [用户名输入框]元素输入内容：test01
+[2020-05-09 08:36:40,466] base_page.py->find_element line:78 [INFO] : [密码输入框]元素识别成功
+[2020-05-09 08:36:40,757] base_page.py->input line:101 [INFO] : [密码输入框]元素输入内容：newdream123
+[2020-05-09 08:36:40,783] base_page.py->find_element line:78 [INFO] : [登录按钮]元素识别成功
+[2020-05-09 08:36:40,902] base_page.py->click line:93 [INFO] : [登录按钮]元素进行点击操作
+[2020-05-09 08:36:42,031] base_page.py->find_element line:78 [INFO] : [用户菜单]元素识别成功
+[2020-05-09 08:36:42,119] base_page.py->click line:93 [INFO] : [用户菜单]元素进行点击操作
+[2020-05-09 08:36:42,297] base_page.py->find_element line:78 [INFO] : [退出按钮]元素识别成功
+[2020-05-09 08:36:42,749] base_page.py->click line:93 [INFO] : [退出按钮]元素进行点击操作
+[2020-05-09 08:36:42,770] base_page.py->get_title line:50 [INFO] : 获取网页标题，标题是用户登录 - 禅道
+[2020-05-09 08:36:43,032] base_page.py->close_tab line:27 [INFO] : 关闭当前的tab页签
+[2020-05-09 08:38:08,222] selenium_base_case.py->setUpClass line:10 [INFO] : 
+[2020-05-09 08:38:08,222] selenium_base_case.py->setUpClass line:11 [INFO] : ==============测试类开始执行=============
+[2020-05-09 08:38:08,222] selenium_base_case.py->setUp line:15 [INFO] : ---------测试方法开始执行-----------
+[2020-05-09 08:38:10,620] browser.py->__get_chrome_driver line:33 [INFO] : 初始化并启动谷歌浏览器
+[2020-05-09 08:38:10,824] base_page.py->set_browser_max line:35 [INFO] : 设置浏览器最大化
+[2020-05-09 08:38:15,181] base_page.py->open_url line:21 [INFO] : 打开url地址 http://47.107.178.45/zentao/www/index.php?m=user&f=login 
+[2020-05-09 08:38:15,437] base_page.py->find_element line:78 [INFO] : [用户名输入框]元素识别成功
+[2020-05-09 08:38:15,638] base_page.py->input line:101 [INFO] : [用户名输入框]元素输入内容：test01
+[2020-05-09 08:38:15,665] base_page.py->find_element line:78 [INFO] : [密码输入框]元素识别成功
+[2020-05-09 08:38:15,954] base_page.py->input line:101 [INFO] : [密码输入框]元素输入内容：newdream
+[2020-05-09 08:38:15,993] base_page.py->find_element line:78 [INFO] : [登录按钮]元素识别成功
+[2020-05-09 08:38:16,095] base_page.py->click line:93 [INFO] : [登录按钮]元素进行点击操作
+[2020-05-09 08:38:17,677] base_page.py->close_tab line:27 [INFO] : 关闭当前的tab页签
+[2020-05-09 08:38:17,677] selenium_base_case.py->tearDown line:30 [INFO] : ---------测试方法执行完毕-----------
+[2020-05-09 08:38:17,678] selenium_base_case.py->setUp line:15 [INFO] : ---------测试方法开始执行-----------
+[2020-05-09 08:38:20,694] browser.py->__get_chrome_driver line:33 [INFO] : 初始化并启动谷歌浏览器
+[2020-05-09 08:38:20,876] base_page.py->set_browser_max line:35 [INFO] : 设置浏览器最大化
+[2020-05-09 08:38:25,341] base_page.py->open_url line:21 [INFO] : 打开url地址 http://47.107.178.45/zentao/www/index.php?m=user&f=login 
+[2020-05-09 08:38:25,522] base_page.py->find_element line:78 [INFO] : [用户名输入框]元素识别成功
+[2020-05-09 08:38:25,759] base_page.py->input line:101 [INFO] : [用户名输入框]元素输入内容：test01
+[2020-05-09 08:38:25,786] base_page.py->find_element line:78 [INFO] : [密码输入框]元素识别成功
+[2020-05-09 08:38:26,049] base_page.py->input line:101 [INFO] : [密码输入框]元素输入内容：newdream123
+[2020-05-09 08:38:26,063] base_page.py->find_element line:78 [INFO] : [登录按钮]元素识别成功
+[2020-05-09 08:38:26,191] base_page.py->click line:93 [INFO] : [登录按钮]元素进行点击操作
+[2020-05-09 08:38:27,096] base_page.py->find_element line:78 [INFO] : [用户菜单]元素识别成功
+[2020-05-09 08:38:27,984] base_page.py->close_tab line:27 [INFO] : 关闭当前的tab页签
+[2020-05-09 08:38:27,984] selenium_base_case.py->tearDown line:30 [INFO] : ---------测试方法执行完毕-----------
+[2020-05-09 08:38:27,986] selenium_base_case.py->tearDownClass line:34 [INFO] : ==============测试类执行完毕=============
+[2020-05-09 08:38:31,093] browser.py->__get_chrome_driver line:33 [INFO] : 初始化并启动谷歌浏览器
+[2020-05-09 08:38:31,278] base_page.py->set_browser_max line:35 [INFO] : 设置浏览器最大化
+[2020-05-09 08:38:35,646] base_page.py->open_url line:21 [INFO] : 打开url地址 http://47.107.178.45/zentao/www/index.php?m=user&f=login 
+[2020-05-09 08:38:35,813] base_page.py->find_element line:78 [INFO] : [用户名输入框]元素识别成功
+[2020-05-09 08:38:36,081] base_page.py->input line:101 [INFO] : [用户名输入框]元素输入内容：test01
+[2020-05-09 08:38:36,110] base_page.py->find_element line:78 [INFO] : [密码输入框]元素识别成功
+[2020-05-09 08:38:36,382] base_page.py->input line:101 [INFO] : [密码输入框]元素输入内容：newdream123
+[2020-05-09 08:38:36,406] base_page.py->find_element line:78 [INFO] : [登录按钮]元素识别成功
+[2020-05-09 08:38:36,576] base_page.py->click line:93 [INFO] : [登录按钮]元素进行点击操作
+[2020-05-09 08:38:37,735] base_page.py->find_element line:78 [INFO] : [用户菜单]元素识别成功
+[2020-05-09 08:38:37,842] base_page.py->click line:93 [INFO] : [用户菜单]元素进行点击操作
+[2020-05-09 08:38:38,011] base_page.py->find_element line:78 [INFO] : [退出按钮]元素识别成功
+[2020-05-09 08:38:38,565] base_page.py->click line:93 [INFO] : [退出按钮]元素进行点击操作
+[2020-05-09 08:38:38,595] base_page.py->get_title line:50 [INFO] : 获取网页标题，标题是用户登录 - 禅道
+[2020-05-09 08:38:38,823] base_page.py->close_tab line:27 [INFO] : 关闭当前的tab页签
+[2020-05-09 09:00:38,842] selenium_base_case.py->setUpClass line:10 [INFO] : 
+[2020-05-09 09:00:38,843] selenium_base_case.py->setUpClass line:11 [INFO] : ==============测试类开始执行=============
+[2020-05-09 09:00:38,843] selenium_base_case.py->setUp line:15 [INFO] : ---------测试方法开始执行-----------
+[2020-05-09 09:00:41,650] browser.py->__get_chrome_driver line:33 [INFO] : 初始化并启动谷歌浏览器
+[2020-05-09 09:00:41,838] base_page.py->set_browser_max line:35 [INFO] : 设置浏览器最大化
+[2020-05-09 09:00:47,092] base_page.py->open_url line:21 [INFO] : 打开url地址 http://47.107.178.45/zentao/www/index.php?m=user&f=login 
+[2020-05-09 09:00:47,205] base_page.py->find_element line:78 [INFO] : [用户名输入框]元素识别成功
+[2020-05-09 09:00:47,432] base_page.py->input line:101 [INFO] : [用户名输入框]元素输入内容：test01
+[2020-05-09 09:00:47,466] base_page.py->find_element line:78 [INFO] : [密码输入框]元素识别成功
+[2020-05-09 09:00:47,697] base_page.py->input line:101 [INFO] : [密码输入框]元素输入内容：newdream
+[2020-05-09 09:00:47,726] base_page.py->find_element line:78 [INFO] : [登录按钮]元素识别成功
+[2020-05-09 09:00:47,817] base_page.py->click line:93 [INFO] : [登录按钮]元素进行点击操作
+[2020-05-09 09:00:48,472] base_page.py->close_tab line:27 [INFO] : 关闭当前的tab页签
+[2020-05-09 09:00:48,473] selenium_base_case.py->tearDown line:30 [INFO] : ---------测试方法执行完毕-----------
+[2020-05-09 09:00:48,473] selenium_base_case.py->setUp line:15 [INFO] : ---------测试方法开始执行-----------
+[2020-05-09 09:00:51,369] browser.py->__get_chrome_driver line:33 [INFO] : 初始化并启动谷歌浏览器
+[2020-05-09 09:00:51,546] base_page.py->set_browser_max line:35 [INFO] : 设置浏览器最大化
+[2020-05-09 09:00:56,553] base_page.py->open_url line:21 [INFO] : 打开url地址 http://47.107.178.45/zentao/www/index.php?m=user&f=login 
+[2020-05-09 09:00:56,628] base_page.py->find_element line:78 [INFO] : [用户名输入框]元素识别成功
+[2020-05-09 09:00:56,837] base_page.py->input line:101 [INFO] : [用户名输入框]元素输入内容：test01
+[2020-05-09 09:00:56,869] base_page.py->find_element line:78 [INFO] : [密码输入框]元素识别成功
+[2020-05-09 09:00:57,119] base_page.py->input line:101 [INFO] : [密码输入框]元素输入内容：newdream123
+[2020-05-09 09:00:57,149] base_page.py->find_element line:78 [INFO] : [登录按钮]元素识别成功
+[2020-05-09 09:00:57,253] base_page.py->click line:93 [INFO] : [登录按钮]元素进行点击操作
+[2020-05-09 09:00:58,310] base_page.py->find_element line:78 [INFO] : [用户菜单]元素识别成功
+[2020-05-09 09:00:58,483] base_page.py->close_tab line:27 [INFO] : 关闭当前的tab页签
+[2020-05-09 09:00:58,484] selenium_base_case.py->tearDown line:30 [INFO] : ---------测试方法执行完毕-----------
+[2020-05-09 09:00:58,485] selenium_base_case.py->tearDownClass line:34 [INFO] : ==============测试类执行完毕=============
+[2020-05-09 09:01:01,044] browser.py->__get_chrome_driver line:33 [INFO] : 初始化并启动谷歌浏览器
+[2020-05-09 09:01:01,218] base_page.py->set_browser_max line:35 [INFO] : 设置浏览器最大化
+[2020-05-09 09:01:05,714] base_page.py->open_url line:21 [INFO] : 打开url地址 http://47.107.178.45/zentao/www/index.php?m=user&f=login 
+[2020-05-09 09:01:05,810] base_page.py->find_element line:78 [INFO] : [用户名输入框]元素识别成功
+[2020-05-09 09:01:06,018] base_page.py->input line:101 [INFO] : [用户名输入框]元素输入内容：test01
+[2020-05-09 09:01:06,037] base_page.py->find_element line:78 [INFO] : [密码输入框]元素识别成功
+[2020-05-09 09:01:06,287] base_page.py->input line:101 [INFO] : [密码输入框]元素输入内容：newdream123
+[2020-05-09 09:01:06,316] base_page.py->find_element line:78 [INFO] : [登录按钮]元素识别成功
+[2020-05-09 09:01:06,413] base_page.py->click line:93 [INFO] : [登录按钮]元素进行点击操作
+[2020-05-09 09:01:07,465] base_page.py->find_element line:78 [INFO] : [用户菜单]元素识别成功
+[2020-05-09 09:01:07,732] base_page.py->click line:93 [INFO] : [用户菜单]元素进行点击操作
+[2020-05-09 09:01:07,749] base_page.py->find_element line:78 [INFO] : [退出按钮]元素识别成功
+[2020-05-09 09:01:08,173] base_page.py->click line:93 [INFO] : [退出按钮]元素进行点击操作
+[2020-05-09 09:01:08,200] base_page.py->get_title line:50 [INFO] : 获取网页标题，标题是用户登录 - 禅道
+[2020-05-09 09:01:08,410] base_page.py->close_tab line:27 [INFO] : 关闭当前的tab页签
+[2020-05-09 10:22:40,569] selenium_base_case.py->setUpClass line:10 [INFO] : 
+[2020-05-09 10:22:40,569] selenium_base_case.py->setUpClass line:11 [INFO] : ==============测试类开始执行=============
+[2020-05-09 10:22:40,569] selenium_base_case.py->setUp line:15 [INFO] : ---------测试方法开始执行-----------
+[2020-05-09 10:22:43,076] browser.py->__get_chrome_driver line:33 [INFO] : 初始化并启动谷歌浏览器
+[2020-05-09 10:22:43,309] base_page.py->set_browser_max line:35 [INFO] : 设置浏览器最大化
+[2020-05-09 10:22:48,494] base_page.py->open_url line:21 [INFO] : 打开url地址 http://47.107.178.45/zentao/www/index.php?m=user&f=login 
+[2020-05-09 10:22:54,088] base_page.py->find_element line:82 [ERROR] : [用户名输入框]元素不能识别，原因是Message: 
+
+[2020-05-09 10:22:55,758] base_page.py->close_tab line:27 [INFO] : 关闭当前的tab页签
+[2020-05-09 10:22:55,759] selenium_base_case.py->tearDown line:30 [INFO] : ---------测试方法执行完毕-----------
+[2020-05-09 10:22:55,770] selenium_base_case.py->setUp line:15 [INFO] : ---------测试方法开始执行-----------
+[2020-05-09 10:22:58,683] browser.py->__get_chrome_driver line:33 [INFO] : 初始化并启动谷歌浏览器
+[2020-05-09 10:22:58,877] base_page.py->set_browser_max line:35 [INFO] : 设置浏览器最大化
+[2020-05-09 10:23:04,123] base_page.py->open_url line:21 [INFO] : 打开url地址 http://47.107.178.45/zentao/www/index.php?m=user&f=login 
+[2020-05-09 10:23:09,677] base_page.py->find_element line:82 [ERROR] : [用户名输入框]元素不能识别，原因是Message: 
+
+[2020-05-09 10:23:11,450] base_page.py->close_tab line:27 [INFO] : 关闭当前的tab页签
+[2020-05-09 10:23:11,451] selenium_base_case.py->tearDown line:30 [INFO] : ---------测试方法执行完毕-----------
+[2020-05-09 10:23:11,455] selenium_base_case.py->tearDownClass line:34 [INFO] : ==============测试类执行完毕=============
+[2020-05-09 10:23:14,395] browser.py->__get_chrome_driver line:33 [INFO] : 初始化并启动谷歌浏览器
+[2020-05-09 10:23:14,594] base_page.py->set_browser_max line:35 [INFO] : 设置浏览器最大化
+[2020-05-09 10:23:19,631] base_page.py->open_url line:21 [INFO] : 打开url地址 http://47.107.178.45/zentao/www/index.php?m=user&f=login 
+[2020-05-09 10:23:25,281] base_page.py->find_element line:82 [ERROR] : [用户名输入框]元素不能识别，原因是Message: 
+
+[2020-05-09 10:23:26,200] base_page.py->close_tab line:27 [INFO] : 关闭当前的tab页签
+[2020-05-09 10:25:11,298] selenium_base_case.py->setUpClass line:10 [INFO] : 
+[2020-05-09 10:25:11,299] selenium_base_case.py->setUpClass line:11 [INFO] : ==============测试类开始执行=============
+[2020-05-09 10:25:11,299] selenium_base_case.py->setUp line:15 [INFO] : ---------测试方法开始执行-----------
+[2020-05-09 10:25:13,799] browser.py->__get_chrome_driver line:33 [INFO] : 初始化并启动谷歌浏览器
+[2020-05-09 10:25:14,004] base_page.py->set_browser_max line:35 [INFO] : 设置浏览器最大化
+[2020-05-09 10:25:18,649] base_page.py->open_url line:21 [INFO] : 打开url地址 http://47.107.178.45/zentao/www/index.php?m=user&f=login 
+[2020-05-09 10:25:18,739] base_page.py->find_element line:78 [INFO] : [用户名输入框]元素识别成功
+[2020-05-09 10:25:18,943] base_page.py->input line:101 [INFO] : [用户名输入框]元素输入内容：test01
+[2020-05-09 10:25:18,976] base_page.py->find_element line:78 [INFO] : [密码输入框]元素识别成功
+[2020-05-09 10:25:19,246] base_page.py->input line:101 [INFO] : [密码输入框]元素输入内容：newdream
+[2020-05-09 10:25:19,271] base_page.py->find_element line:78 [INFO] : [登录按钮]元素识别成功
+[2020-05-09 10:25:19,334] base_page.py->click line:93 [INFO] : [登录按钮]元素进行点击操作
+[2020-05-09 10:25:20,039] base_page.py->close_tab line:27 [INFO] : 关闭当前的tab页签
+[2020-05-09 10:25:20,041] selenium_base_case.py->tearDown line:30 [INFO] : ---------测试方法执行完毕-----------
+[2020-05-09 10:25:20,044] selenium_base_case.py->setUp line:15 [INFO] : ---------测试方法开始执行-----------
+[2020-05-09 10:25:22,869] browser.py->__get_chrome_driver line:33 [INFO] : 初始化并启动谷歌浏览器
+[2020-05-09 10:25:23,046] base_page.py->set_browser_max line:35 [INFO] : 设置浏览器最大化
+[2020-05-09 10:25:27,673] base_page.py->open_url line:21 [INFO] : 打开url地址 http://47.107.178.45/zentao/www/index.php?m=user&f=login 
+[2020-05-09 10:25:27,736] base_page.py->find_element line:78 [INFO] : [用户名输入框]元素识别成功
+[2020-05-09 10:25:27,938] base_page.py->input line:101 [INFO] : [用户名输入框]元素输入内容：test01
+[2020-05-09 10:25:27,965] base_page.py->find_element line:78 [INFO] : [密码输入框]元素识别成功
+[2020-05-09 10:25:28,238] base_page.py->input line:101 [INFO] : [密码输入框]元素输入内容：newdream123
+[2020-05-09 10:25:28,263] base_page.py->find_element line:78 [INFO] : [登录按钮]元素识别成功
+[2020-05-09 10:25:28,324] base_page.py->click line:93 [INFO] : [登录按钮]元素进行点击操作
+[2020-05-09 10:25:29,496] base_page.py->find_element line:78 [INFO] : [用户菜单]元素识别成功
+[2020-05-09 10:25:29,662] base_page.py->close_tab line:27 [INFO] : 关闭当前的tab页签
+[2020-05-09 10:25:29,662] selenium_base_case.py->tearDown line:30 [INFO] : ---------测试方法执行完毕-----------
+[2020-05-09 10:25:29,666] selenium_base_case.py->tearDownClass line:34 [INFO] : ==============测试类执行完毕=============
+[2020-05-09 10:25:32,216] browser.py->__get_chrome_driver line:33 [INFO] : 初始化并启动谷歌浏览器
+[2020-05-09 10:25:32,412] base_page.py->set_browser_max line:35 [INFO] : 设置浏览器最大化
+[2020-05-09 10:25:37,170] base_page.py->open_url line:21 [INFO] : 打开url地址 http://47.107.178.45/zentao/www/index.php?m=user&f=login 
+[2020-05-09 10:25:37,218] base_page.py->find_element line:78 [INFO] : [用户名输入框]元素识别成功
+[2020-05-09 10:25:37,400] base_page.py->input line:101 [INFO] : [用户名输入框]元素输入内容：test01
+[2020-05-09 10:25:37,420] base_page.py->find_element line:78 [INFO] : [密码输入框]元素识别成功
+[2020-05-09 10:25:37,705] base_page.py->input line:101 [INFO] : [密码输入框]元素输入内容：newdream123
+[2020-05-09 10:25:37,737] base_page.py->find_element line:78 [INFO] : [登录按钮]元素识别成功
+[2020-05-09 10:25:37,805] base_page.py->click line:93 [INFO] : [登录按钮]元素进行点击操作
+[2020-05-09 10:25:38,699] base_page.py->find_element line:78 [INFO] : [用户菜单]元素识别成功
+[2020-05-09 10:25:38,907] base_page.py->click line:93 [INFO] : [用户菜单]元素进行点击操作
+[2020-05-09 10:25:38,967] base_page.py->find_element line:78 [INFO] : [退出按钮]元素识别成功
+[2020-05-09 10:25:39,497] base_page.py->click line:93 [INFO] : [退出按钮]元素进行点击操作
+[2020-05-09 10:25:39,519] base_page.py->get_title line:50 [INFO] : 获取网页标题，标题是用户登录 - 禅道
+[2020-05-09 10:25:39,735] base_page.py->close_tab line:27 [INFO] : 关闭当前的tab页签
+[2020-05-09 10:27:32,553] selenium_base_case.py->setUpClass line:10 [INFO] : 
+[2020-05-09 10:27:32,554] selenium_base_case.py->setUpClass line:11 [INFO] : ==============测试类开始执行=============
+[2020-05-09 10:27:32,554] selenium_base_case.py->setUp line:15 [INFO] : ---------测试方法开始执行-----------
+[2020-05-09 10:27:35,065] browser.py->__get_chrome_driver line:33 [INFO] : 初始化并启动谷歌浏览器
+[2020-05-09 10:27:35,245] base_page.py->set_browser_max line:35 [INFO] : 设置浏览器最大化
+[2020-05-09 10:27:40,186] base_page.py->open_url line:21 [INFO] : 打开url地址 http://47.107.178.45/zentao/www/index.php?m=user&f=login 
+[2020-05-09 10:27:40,264] base_page.py->find_element line:78 [INFO] : [用户名输入框]元素识别成功
+[2020-05-09 10:27:40,440] base_page.py->input line:101 [INFO] : [用户名输入框]元素输入内容：test01
+[2020-05-09 10:27:40,471] base_page.py->find_element line:78 [INFO] : [密码输入框]元素识别成功
+[2020-05-09 10:27:40,634] base_page.py->input line:101 [INFO] : [密码输入框]元素输入内容：newdream
+[2020-05-09 10:27:40,653] base_page.py->find_element line:78 [INFO] : [登录按钮]元素识别成功
+[2020-05-09 10:27:40,776] base_page.py->click line:93 [INFO] : [登录按钮]元素进行点击操作
+[2020-05-09 10:27:41,478] base_page.py->close_tab line:27 [INFO] : 关闭当前的tab页签
+[2020-05-09 10:27:41,482] selenium_base_case.py->tearDown line:30 [INFO] : ---------测试方法执行完毕-----------
+[2020-05-09 10:27:41,483] selenium_base_case.py->setUp line:15 [INFO] : ---------测试方法开始执行-----------
+[2020-05-09 10:27:44,078] browser.py->__get_chrome_driver line:33 [INFO] : 初始化并启动谷歌浏览器
+[2020-05-09 10:27:44,238] base_page.py->set_browser_max line:35 [INFO] : 设置浏览器最大化
+[2020-05-09 10:27:49,162] base_page.py->open_url line:21 [INFO] : 打开url地址 http://47.107.178.45/zentao/www/index.php?m=user&f=login 
+[2020-05-09 10:27:49,218] base_page.py->find_element line:78 [INFO] : [用户名输入框]元素识别成功
+[2020-05-09 10:27:49,436] base_page.py->input line:101 [INFO] : [用户名输入框]元素输入内容：test01
+[2020-05-09 10:27:49,450] base_page.py->find_element line:78 [INFO] : [密码输入框]元素识别成功
+[2020-05-09 10:27:49,712] base_page.py->input line:101 [INFO] : [密码输入框]元素输入内容：newdream123
+[2020-05-09 10:27:49,734] base_page.py->find_element line:78 [INFO] : [登录按钮]元素识别成功
+[2020-05-09 10:27:49,816] base_page.py->click line:93 [INFO] : [登录按钮]元素进行点击操作
+[2020-05-09 10:27:50,732] base_page.py->find_element line:78 [INFO] : [用户菜单]元素识别成功
+[2020-05-09 10:27:51,726] base_page.py->close_tab line:27 [INFO] : 关闭当前的tab页签
+[2020-05-09 10:27:51,727] selenium_base_case.py->tearDown line:30 [INFO] : ---------测试方法执行完毕-----------
+[2020-05-09 10:27:51,733] selenium_base_case.py->tearDownClass line:34 [INFO] : ==============测试类执行完毕=============
+[2020-05-09 10:27:54,363] browser.py->__get_chrome_driver line:33 [INFO] : 初始化并启动谷歌浏览器
+[2020-05-09 10:27:54,532] base_page.py->set_browser_max line:35 [INFO] : 设置浏览器最大化
+[2020-05-09 10:27:59,119] base_page.py->open_url line:21 [INFO] : 打开url地址 http://47.107.178.45/zentao/www/index.php?m=user&f=login 
+[2020-05-09 10:27:59,166] base_page.py->find_element line:78 [INFO] : [用户名输入框]元素识别成功
+[2020-05-09 10:27:59,372] base_page.py->input line:101 [INFO] : [用户名输入框]元素输入内容：test01
+[2020-05-09 10:27:59,402] base_page.py->find_element line:78 [INFO] : [密码输入框]元素识别成功
+[2020-05-09 10:27:59,678] base_page.py->input line:101 [INFO] : [密码输入框]元素输入内容：newdream123
+[2020-05-09 10:27:59,689] base_page.py->find_element line:78 [INFO] : [登录按钮]元素识别成功
+[2020-05-09 10:27:59,767] base_page.py->click line:93 [INFO] : [登录按钮]元素进行点击操作
+[2020-05-09 10:28:00,692] base_page.py->find_element line:78 [INFO] : [用户菜单]元素识别成功
+[2020-05-09 10:28:00,940] base_page.py->click line:93 [INFO] : [用户菜单]元素进行点击操作
+[2020-05-09 10:28:00,958] base_page.py->find_element line:78 [INFO] : [退出按钮]元素识别成功
+[2020-05-09 10:28:01,777] base_page.py->click line:93 [INFO] : [退出按钮]元素进行点击操作
+[2020-05-09 10:28:01,796] base_page.py->get_title line:50 [INFO] : 获取网页标题，标题是用户登录 - 禅道
+[2020-05-09 10:28:01,926] base_page.py->close_tab line:27 [INFO] : 关闭当前的tab页签
+[2020-05-09 10:29:24,826] selenium_base_case.py->setUpClass line:10 [INFO] : 
+[2020-05-09 10:29:24,827] selenium_base_case.py->setUpClass line:11 [INFO] : ==============测试类开始执行=============
+[2020-05-09 10:29:24,827] selenium_base_case.py->setUp line:15 [INFO] : ---------测试方法开始执行-----------
+[2020-05-09 10:29:27,189] browser.py->__get_chrome_driver line:33 [INFO] : 初始化并启动谷歌浏览器
+[2020-05-09 10:29:27,369] base_page.py->set_browser_max line:35 [INFO] : 设置浏览器最大化
+[2020-05-09 10:29:31,850] base_page.py->open_url line:21 [INFO] : 打开url地址 http://47.107.178.45/zentao/www/index.php?m=user&f=login 
+[2020-05-09 10:29:32,123] base_page.py->find_element line:78 [INFO] : [用户名输入框]元素识别成功
+[2020-05-09 10:29:32,278] base_page.py->input line:101 [INFO] : [用户名输入框]元素输入内容：test01
+[2020-05-09 10:29:32,303] base_page.py->find_element line:78 [INFO] : [密码输入框]元素识别成功
+[2020-05-09 10:29:32,486] base_page.py->input line:101 [INFO] : [密码输入框]元素输入内容：newdream
+[2020-05-09 10:29:32,508] base_page.py->find_element line:78 [INFO] : [登录按钮]元素识别成功
+[2020-05-09 10:29:32,623] base_page.py->click line:93 [INFO] : [登录按钮]元素进行点击操作
+[2020-05-09 10:29:34,150] base_page.py->close_tab line:27 [INFO] : 关闭当前的tab页签
+[2020-05-09 10:29:34,150] selenium_base_case.py->tearDown line:31 [INFO] : ---------测试方法执行完毕-----------
+[2020-05-09 10:29:34,154] selenium_base_case.py->setUp line:15 [INFO] : ---------测试方法开始执行-----------
+[2020-05-09 10:29:36,823] browser.py->__get_chrome_driver line:33 [INFO] : 初始化并启动谷歌浏览器
+[2020-05-09 10:29:37,008] base_page.py->set_browser_max line:35 [INFO] : 设置浏览器最大化
+[2020-05-09 10:29:41,457] base_page.py->open_url line:21 [INFO] : 打开url地址 http://47.107.178.45/zentao/www/index.php?m=user&f=login 
+[2020-05-09 10:29:41,498] base_page.py->find_element line:78 [INFO] : [用户名输入框]元素识别成功
+[2020-05-09 10:29:41,723] base_page.py->input line:101 [INFO] : [用户名输入框]元素输入内容：test01
+[2020-05-09 10:29:41,741] base_page.py->find_element line:78 [INFO] : [密码输入框]元素识别成功
+[2020-05-09 10:29:42,037] base_page.py->input line:101 [INFO] : [密码输入框]元素输入内容：newdream123
+[2020-05-09 10:29:42,064] base_page.py->find_element line:78 [INFO] : [登录按钮]元素识别成功
+[2020-05-09 10:29:42,132] base_page.py->click line:93 [INFO] : [登录按钮]元素进行点击操作
+[2020-05-09 10:29:43,819] base_page.py->find_element line:78 [INFO] : [用户菜单]元素识别成功
+[2020-05-09 10:29:44,589] base_page.py->close_tab line:27 [INFO] : 关闭当前的tab页签
+[2020-05-09 10:29:44,589] selenium_base_case.py->tearDown line:31 [INFO] : ---------测试方法执行完毕-----------
+[2020-05-09 10:29:44,591] selenium_base_case.py->tearDownClass line:35 [INFO] : ==============测试类执行完毕=============
+[2020-05-09 10:29:47,266] browser.py->__get_chrome_driver line:33 [INFO] : 初始化并启动谷歌浏览器
+[2020-05-09 10:29:47,469] base_page.py->set_browser_max line:35 [INFO] : 设置浏览器最大化
+[2020-05-09 10:29:53,590] base_page.py->open_url line:21 [INFO] : 打开url地址 http://47.107.178.45/zentao/www/index.php?m=user&f=login 
+[2020-05-09 10:29:53,705] base_page.py->find_element line:78 [INFO] : [用户名输入框]元素识别成功
+[2020-05-09 10:29:53,877] base_page.py->input line:101 [INFO] : [用户名输入框]元素输入内容：test01
+[2020-05-09 10:29:53,905] base_page.py->find_element line:78 [INFO] : [密码输入框]元素识别成功
+[2020-05-09 10:29:54,240] base_page.py->input line:101 [INFO] : [密码输入框]元素输入内容：newdream123
+[2020-05-09 10:29:54,262] base_page.py->find_element line:78 [INFO] : [登录按钮]元素识别成功
+[2020-05-09 10:29:54,343] base_page.py->click line:93 [INFO] : [登录按钮]元素进行点击操作
+[2020-05-09 10:29:55,506] base_page.py->find_element line:78 [INFO] : [用户菜单]元素识别成功
+[2020-05-09 10:29:55,715] base_page.py->click line:93 [INFO] : [用户菜单]元素进行点击操作
+[2020-05-09 10:29:55,773] base_page.py->find_element line:78 [INFO] : [退出按钮]元素识别成功
+[2020-05-09 10:29:56,207] base_page.py->click line:93 [INFO] : [退出按钮]元素进行点击操作
+[2020-05-09 10:29:56,241] base_page.py->get_title line:50 [INFO] : 获取网页标题，标题是用户登录 - 禅道
+[2020-05-09 10:29:56,472] base_page.py->close_tab line:27 [INFO] : 关闭当前的tab页签
+[2020-05-09 14:27:12,621] selenium_base_case.py->setUpClass line:10 [INFO] : 
+[2020-05-09 14:27:12,623] selenium_base_case.py->setUpClass line:11 [INFO] : ==============测试类开始执行=============
+[2020-05-09 14:27:12,623] selenium_base_case.py->setUp line:15 [INFO] : ---------测试方法开始执行-----------
+[2020-05-09 14:27:15,155] browser.py->__get_chrome_driver line:33 [INFO] : 初始化并启动谷歌浏览器
+[2020-05-09 14:27:15,355] base_page.py->set_browser_max line:35 [INFO] : 设置浏览器最大化
+[2020-05-09 14:27:19,793] base_page.py->open_url line:21 [INFO] : 打开url地址 http://47.107.178.45/zentao/www/index.php?m=user&f=login 
+[2020-05-09 14:27:19,919] base_page.py->find_element line:78 [INFO] : [用户名输入框]元素识别成功
+[2020-05-09 14:27:20,094] base_page.py->input line:101 [INFO] : [用户名输入框]元素输入内容：test01
+[2020-05-09 14:27:20,115] base_page.py->find_element line:78 [INFO] : [密码输入框]元素识别成功
+[2020-05-09 14:27:20,276] base_page.py->input line:101 [INFO] : [密码输入框]元素输入内容：newdream
+[2020-05-09 14:27:20,296] base_page.py->find_element line:78 [INFO] : [登录按钮]元素识别成功
+[2020-05-09 14:27:20,388] base_page.py->click line:93 [INFO] : [登录按钮]元素进行点击操作
+[2020-05-09 14:27:21,166] base_page.py->close_tab line:27 [INFO] : 关闭当前的tab页签
+[2020-05-09 14:27:21,166] selenium_base_case.py->tearDown line:31 [INFO] : ---------测试方法执行完毕-----------
+[2020-05-09 14:27:21,167] selenium_base_case.py->setUp line:15 [INFO] : ---------测试方法开始执行-----------
+[2020-05-09 14:27:23,531] browser.py->__get_chrome_driver line:33 [INFO] : 初始化并启动谷歌浏览器
+[2020-05-09 14:27:23,680] base_page.py->set_browser_max line:35 [INFO] : 设置浏览器最大化
+[2020-05-09 14:27:28,025] base_page.py->open_url line:21 [INFO] : 打开url地址 http://47.107.178.45/zentao/www/index.php?m=user&f=login 
+[2020-05-09 14:27:28,062] base_page.py->find_element line:78 [INFO] : [用户名输入框]元素识别成功
+[2020-05-09 14:27:28,219] base_page.py->input line:101 [INFO] : [用户名输入框]元素输入内容：test01
+[2020-05-09 14:27:28,253] base_page.py->find_element line:78 [INFO] : [密码输入框]元素识别成功
+[2020-05-09 14:27:28,454] base_page.py->input line:101 [INFO] : [密码输入框]元素输入内容：newdream123
+[2020-05-09 14:27:28,487] base_page.py->find_element line:78 [INFO] : [登录按钮]元素识别成功
+[2020-05-09 14:27:28,565] base_page.py->click line:93 [INFO] : [登录按钮]元素进行点击操作
+[2020-05-09 14:27:29,948] base_page.py->find_element line:78 [INFO] : [用户菜单]元素识别成功
+[2020-05-09 14:27:35,020] selenium_base_case.py->tearDownClass line:35 [INFO] : ==============测试类执行完毕=============
+[2020-05-09 14:27:48,181] selenium_base_case.py->setUpClass line:10 [INFO] : 
+[2020-05-09 14:27:48,181] selenium_base_case.py->setUpClass line:11 [INFO] : ==============测试类开始执行=============
+[2020-05-09 14:27:48,182] selenium_base_case.py->setUp line:15 [INFO] : ---------测试方法开始执行-----------
+[2020-05-09 14:27:50,434] browser.py->__get_chrome_driver line:33 [INFO] : 初始化并启动谷歌浏览器
+[2020-05-09 14:27:50,650] base_page.py->set_browser_max line:35 [INFO] : 设置浏览器最大化
+[2020-05-09 14:27:55,061] base_page.py->open_url line:21 [INFO] : 打开url地址 http://47.107.178.45/zentao/www/index.php?m=user&f=login 
+[2020-05-09 14:27:55,088] base_page.py->find_element line:78 [INFO] : [用户名输入框]元素识别成功
+[2020-05-09 14:27:55,250] base_page.py->input line:101 [INFO] : [用户名输入框]元素输入内容：test01
+[2020-05-09 14:27:55,286] base_page.py->find_element line:78 [INFO] : [密码输入框]元素识别成功
+[2020-05-09 14:27:55,436] base_page.py->input line:101 [INFO] : [密码输入框]元素输入内容：newdream
+[2020-05-09 14:27:55,456] base_page.py->find_element line:78 [INFO] : [登录按钮]元素识别成功
+[2020-05-09 14:27:55,534] base_page.py->click line:93 [INFO] : [登录按钮]元素进行点击操作
+[2020-05-09 14:27:56,194] base_page.py->close_tab line:27 [INFO] : 关闭当前的tab页签
+[2020-05-09 14:27:56,194] selenium_base_case.py->tearDown line:31 [INFO] : ---------测试方法执行完毕-----------
+[2020-05-09 14:27:56,195] selenium_base_case.py->setUp line:15 [INFO] : ---------测试方法开始执行-----------
+[2020-05-09 14:27:58,502] browser.py->__get_chrome_driver line:33 [INFO] : 初始化并启动谷歌浏览器
+[2020-05-09 14:27:58,652] base_page.py->set_browser_max line:35 [INFO] : 设置浏览器最大化
+[2020-05-09 14:28:03,124] base_page.py->open_url line:21 [INFO] : 打开url地址 http://47.107.178.45/zentao/www/index.php?m=user&f=login 
+[2020-05-09 14:28:03,213] base_page.py->find_element line:78 [INFO] : [用户名输入框]元素识别成功
+[2020-05-09 14:28:03,396] base_page.py->input line:101 [INFO] : [用户名输入框]元素输入内容：test01
+[2020-05-09 14:28:03,413] base_page.py->find_element line:78 [INFO] : [密码输入框]元素识别成功
+[2020-05-09 14:28:03,626] base_page.py->input line:101 [INFO] : [密码输入框]元素输入内容：newdream123
+[2020-05-09 14:28:03,643] base_page.py->find_element line:78 [INFO] : [登录按钮]元素识别成功
+[2020-05-09 14:28:03,711] base_page.py->click line:93 [INFO] : [登录按钮]元素进行点击操作
+[2020-05-09 14:28:04,987] base_page.py->find_element line:78 [INFO] : [用户菜单]元素识别成功
+[2020-05-09 14:28:10,049] selenium_base_case.py->tearDownClass line:35 [INFO] : ==============测试类执行完毕=============
+[2020-05-09 14:28:49,302] selenium_base_case.py->setUpClass line:10 [INFO] : 
+[2020-05-09 14:28:49,302] selenium_base_case.py->setUpClass line:11 [INFO] : ==============测试类开始执行=============
+[2020-05-09 14:28:49,302] selenium_base_case.py->setUp line:15 [INFO] : ---------测试方法开始执行-----------
+[2020-05-09 14:28:51,649] browser.py->__get_chrome_driver line:33 [INFO] : 初始化并启动谷歌浏览器
+[2020-05-09 14:28:51,835] base_page.py->set_browser_max line:35 [INFO] : 设置浏览器最大化
+[2020-05-09 14:28:56,268] base_page.py->open_url line:21 [INFO] : 打开url地址 http://47.107.178.45/zentao/www/index.php?m=user&f=login 
+[2020-05-09 14:28:56,298] base_page.py->find_element line:78 [INFO] : [用户名输入框]元素识别成功
+[2020-05-09 14:28:56,430] base_page.py->input line:101 [INFO] : [用户名输入框]元素输入内容：test01
+[2020-05-09 14:28:56,442] base_page.py->find_element line:78 [INFO] : [密码输入框]元素识别成功
+[2020-05-09 14:28:56,661] base_page.py->input line:101 [INFO] : [密码输入框]元素输入内容：newdream
+[2020-05-09 14:28:56,686] base_page.py->find_element line:78 [INFO] : [登录按钮]元素识别成功
+[2020-05-09 14:28:56,744] base_page.py->click line:93 [INFO] : [登录按钮]元素进行点击操作
+[2020-05-09 14:28:57,429] base_page.py->close_tab line:27 [INFO] : 关闭当前的tab页签
+[2020-05-09 14:28:57,430] selenium_base_case.py->tearDown line:31 [INFO] : ---------测试方法执行完毕-----------
+[2020-05-09 14:28:57,430] selenium_base_case.py->setUp line:15 [INFO] : ---------测试方法开始执行-----------
+[2020-05-09 14:28:59,955] browser.py->__get_chrome_driver line:33 [INFO] : 初始化并启动谷歌浏览器
+[2020-05-09 14:29:00,104] base_page.py->set_browser_max line:35 [INFO] : 设置浏览器最大化
+[2020-05-09 14:29:04,412] base_page.py->open_url line:21 [INFO] : 打开url地址 http://47.107.178.45/zentao/www/index.php?m=user&f=login 
+[2020-05-09 14:29:04,464] base_page.py->find_element line:78 [INFO] : [用户名输入框]元素识别成功
+[2020-05-09 14:29:04,577] base_page.py->input line:101 [INFO] : [用户名输入框]元素输入内容：test01
+[2020-05-09 14:29:04,595] base_page.py->find_element line:78 [INFO] : [密码输入框]元素识别成功
+[2020-05-09 14:29:04,779] base_page.py->input line:101 [INFO] : [密码输入框]元素输入内容：newdream123
+[2020-05-09 14:29:04,798] base_page.py->find_element line:78 [INFO] : [登录按钮]元素识别成功
+[2020-05-09 14:29:04,875] base_page.py->click line:93 [INFO] : [登录按钮]元素进行点击操作
+[2020-05-09 14:29:06,293] base_page.py->find_element line:78 [INFO] : [用户菜单]元素识别成功
+[2020-05-09 14:29:12,002] base_page.py->close_tab line:27 [INFO] : 关闭当前的tab页签
+[2020-05-09 14:29:12,004] selenium_base_case.py->tearDown line:31 [INFO] : ---------测试方法执行完毕-----------
+[2020-05-09 14:29:12,005] selenium_base_case.py->tearDownClass line:35 [INFO] : ==============测试类执行完毕=============
+[2020-05-09 14:29:14,496] browser.py->__get_chrome_driver line:33 [INFO] : 初始化并启动谷歌浏览器
+[2020-05-09 14:29:14,649] base_page.py->set_browser_max line:35 [INFO] : 设置浏览器最大化
+[2020-05-09 14:29:19,198] base_page.py->open_url line:21 [INFO] : 打开url地址 http://47.107.178.45/zentao/www/index.php?m=user&f=login 
+[2020-05-09 14:29:19,237] base_page.py->find_element line:78 [INFO] : [用户名输入框]元素识别成功
+[2020-05-09 14:29:19,403] base_page.py->input line:101 [INFO] : [用户名输入框]元素输入内容：test01
+[2020-05-09 14:29:19,420] base_page.py->find_element line:78 [INFO] : [密码输入框]元素识别成功
+[2020-05-09 14:29:19,625] base_page.py->input line:101 [INFO] : [密码输入框]元素输入内容：newdream123
+[2020-05-09 14:29:19,655] base_page.py->find_element line:78 [INFO] : [登录按钮]元素识别成功
+[2020-05-09 14:29:19,727] base_page.py->click line:93 [INFO] : [登录按钮]元素进行点击操作
+[2020-05-09 14:29:21,072] base_page.py->find_element line:78 [INFO] : [用户菜单]元素识别成功
+[2020-05-09 14:29:21,189] base_page.py->click line:93 [INFO] : [用户菜单]元素进行点击操作
+[2020-05-09 14:29:21,224] base_page.py->find_element line:78 [INFO] : [退出按钮]元素识别成功
+[2020-05-09 14:29:21,942] base_page.py->click line:93 [INFO] : [退出按钮]元素进行点击操作
+[2020-05-09 14:29:21,963] base_page.py->get_title line:50 [INFO] : 获取网页标题，标题是用户登录 - 禅道
+[2020-05-09 14:29:22,155] base_page.py->close_tab line:27 [INFO] : 关闭当前的tab页签
