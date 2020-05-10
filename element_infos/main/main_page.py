@@ -10,7 +10,7 @@ from common.browser import Browser
 class MainPage(BasePage):
     def __init__(self,driver):
         super().__init__(driver)
-        elements = ElementdataUtils('main').get_element_info('main_page')
+        elements = ElementdataUtils('main','main_page').get_element_info()
         self.myzone_link = elements['myzone_link']
         self.user_menu = elements['user_menu']
         self.quit_button = elements['quit_button']

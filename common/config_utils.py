@@ -30,6 +30,11 @@ class ConfigUtils(object):
         return driver_name_value
 
     @property
+    def element_info_path(self):
+        element_info_path_value = self.cfg.get('default', 'element_info_path')
+        return element_info_path_value
+
+    @property
     def screenshot_path(self):
         screenshot_path_value = self.cfg.get('default', 'screen_shot_path')
         return screenshot_path_value
@@ -68,6 +73,37 @@ class ConfigUtils(object):
     def password(self):
         password_value = self.cfg.get('default', 'password')
         return password_value
+
+    @property
+    def smtp_server(self):
+        smtp_server_value = self.cfg.get('email', 'smtp_server')
+        return smtp_server_value
+
+    @property
+    def smtp_sender(self):
+        smtp_sender_value = self.cfg.get('email', 'smtp_sender')
+        return smtp_sender_value
+
+    @property
+    def smtp_password(self):
+        smtp_password_value = self.cfg.get('email', 'smtp_password')
+        return smtp_password_value
+
+    @property
+    def smtp_receiver(self):
+        smtp_receiver_value = self.cfg.get('email', 'smtp_receiver')
+        return smtp_receiver_value
+
+    @property
+    def smtp_cc(self):
+        smtp_cc_value = self.cfg.get('email', 'smtp_cc')
+        return smtp_cc_value
+
+    @property
+    def smtp_subject(self):
+        smtp_subject_value = self.cfg.get('email', 'smtp_subject')
+        return smtp_subject_value
+
 
 
 local_config = ConfigUtils()

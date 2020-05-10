@@ -9,7 +9,7 @@ from common.test_data_utils import TestDataUtils
 class LoginTest(SeleniumBaseCase):
     ''' 登录测试类 '''
 
-    test_class_data = TestDataUtils('login_suite', 'LoginTest').convert_exceldata_to_testdata()
+    test_class_data = TestDataUtils('login_suite','login_test').convert_exceldata_to_testdata()
 
     def setUp(self) -> None:
         super().setUp()
